@@ -30,22 +30,46 @@ html {
   --backgroundhighlights: #CE575A;
 }
 
+* {
+    box-sizing: border-box;
+  }
+
 body {
+    background-image: url(../Images/cssbodybackground.png);
     background-color: var(--background-color);
-    color: var(--titlesandtext)
+    background-size: cover;
+    color: var(--titlesandtext);
+    
 }
 
 h1, h2, h3, a {
-    font-family: Karla, Georgia, serif;
+    font-family: Karla, Georgia, sans-serif;
   }
 
 h4 {
-    font-family: Quantico, Georgia, serif;
+    font-family: Quantico, Georgia, sans-serif;
   }
 
 p {
-    font-family: Lato, Georgia, serif;
+    font-family: Lato, Georgia, sans-serif;
+
   }
+
+header {
+    border: 3px solid black;
+}
+
+#navBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+
+#navBar li {
+    padding: 10px;
+    
+}
 
 footer {
     margin-top: 3.125rem;
