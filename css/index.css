@@ -1,17 +1,9 @@
 @font-face {
-    font-family: Lato;
-    src: url(https://fonts.google.com/specimen/Lato);
-    font-size: 100%;
-    padding: 1em;
-    font-weight: nromal;
-    font-style: normal;
-  }
-@font-face {
     font-family: Karla;
     src: url(https://fonts.google.com/specimen/Karla);
     font-size: 100%;
     padding: 1em;
-    font-weight: nromal;
+    font-weight: normal;
     font-style: normal;
   }
 @font-face {
@@ -19,9 +11,21 @@
     src: url(https://fonts.google.com/specimen/Quantico);
     font-size: 100%;
     padding: 1em;
-    font-weight: normal;
+    font-weight: 0 700;
     font-style: normal;
-  }
+}
+@font-face {
+    font-family: Cabin Sketch;
+    src: url(https://fonts.google.com/specimen/Cabin+Sketch);
+    font-size: 100%;
+    padding: 1em;
+    font-weight: 400 700;
+    font-style: normal, bold;
+
+font-family: 'Karla', sans-serif;
+font-family: 'Quantico', sans-serif;
+font-family: 'Cabin Sketch', sans-serif;
+}
 
 html {
   --background-color: #FFFEF2;
@@ -35,19 +39,35 @@ html {
   }
 
 body {
-    background-image: url(../Images/cssbodybackground.png);
+    background-image: url(../Images/texture.jpg);
     background-color: var(--background-color);
     background-size: cover;
     color: var(--titlesandtext);
     
 }
 
-h1, h2, h3, a {
-    font-family: Karla, Georgia, sans-serif;
-  }
+h1 {
+    font-family: 'Cabin Sketch', Georgia, sans-serif;
+    font-weight: 700;
+    font-size: 7em;
+}
+
+h2, h3 {
+  font-family: 'Cabin Sketch', Georgia, sans-serif;
+  font-weight: 400;
+  font-size: 4em;
+}
+
+a {
+  font-family: 'Cabin Sketch', Georgia, sans-serif;
+    font-weight: 400;
+    font-size: 2.7em;
+}
 
 h4 {
     font-family: Quantico, Georgia, sans-serif;
+    font-weight: 700;
+    font-size: 3.5em;
   }
 
 p {
@@ -56,21 +76,61 @@ p {
   }
 
 header {
-    border: 3px solid black;
-}
-
-#navBar {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    list-style-type: none;
-}
-
-#navBar li {
-    padding: 10px;
+    width: 100%;
+    margin: 0 auto;
     
 }
 
-footer {
-    margin-top: 3.125rem;
+#navBar {
+    width: 100%;
+    min-width: 4.5rem;
+    margin: auto;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    font-size: 1rem;
+    color: #36454F;
 }
+
+#navbar a {
+  color:#36454F;
+  text-decoration: none;
+}
+
+#navbar a:hover {
+  border-bottom: 3px solid red;
+}
+
+#navbar a.active {
+  border-bottom: 3px solid red;
+}
+
+#navBar li {
+    padding: 1.1rem;
+}
+
+.Intro {
+  margin: 20em 6em 30em 6em;
+  text-align: center;
+  text-wrap: pretty;
+  font-size: 1.1rem;
+
+}
+
+.Work {
+  margin: 2em;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 3.125rem; 
+}
+footer img{
+  width: 5rem;
+  height: auto;
+  margin: 0 1em;
+}
+
