@@ -35,7 +35,7 @@ html {
 }
 
 * {
-    box-sizing: border-box;
+  /*box-sizing: border-box;*/
   }
 
 body {
@@ -49,25 +49,25 @@ body {
 h1 {
     font-family: 'Cabin Sketch', Georgia, sans-serif;
     font-weight: 700;
-    font-size: 7em;
+    font-size: 7rem;
 }
 
 h2, h3 {
   font-family: 'Cabin Sketch', Georgia, sans-serif;
   font-weight: 400;
-  font-size: 4em;
+  font-size: 4rem;
 }
 
 a {
   font-family: 'Cabin Sketch', Georgia, sans-serif;
     font-weight: 400;
-    font-size: 2.7em;
+    font-size: 2.7rem;
 }
 
 h4 {
     font-family: Quantico, Georgia, sans-serif;
     font-weight: 700;
-    font-size: 3.5em;
+    font-size: 3.5rem;
   }
 
 p {
@@ -77,50 +77,71 @@ p {
 
 header {
     width: 100%;
-    margin: 0 auto;
+    /*margin: 0 auto;
+    border: 2em;*/
     
 }
 
 #navBar {
     width: 100%;
-    min-width: 4.5rem;
+    min-width: 4.5em;
     margin: auto;
-    padding-top: 2rem;
+    padding-top: 3em;
+    padding-bottom:3em;
     display: flex;
     flex-direction: row;
-    justify-content: center;
     list-style-type: none;
-    font-size: 1rem;
     color: #36454F;
 }
 
-#navbar a {
+#navBar a {
   color:#36454F;
   text-decoration: none;
+  font-size: 3.3em;
 }
 
-#navbar a:hover {
-  border-bottom: 3px solid red;
+#navBar li:active {
+  text-decoration:#CE575A underline;
+  color:#CE575A;
 }
 
-#navbar a.active {
+#navBar a:hover {
   border-bottom: 3px solid red;
 }
 
 #navBar li {
-    padding: 1.1rem;
+    padding: 1.1em;
 }
 
 .Intro {
-  margin: 20em 6em 30em 6em;
+  margin: 30em 6em 45em 6em;
   text-align: center;
   text-wrap: pretty;
-  font-size: 1.1rem;
+  font-size: 1.1em;
 
 }
 
 .Work {
-  margin: 2em;
+  margin: 0 3em 0 3em;
+}
+
+#photo img {
+  max-width: 100%;
+}
+
+#photo {
+  max-width: fit-content;
+}
+
+#photo ul {
+}
+
+#photo li {
+  align-content: center;
+  /*display: flex;
+  justify-content: center;*/
+  max-width: 100%;
+
 }
 
 footer {
@@ -128,6 +149,7 @@ footer {
   justify-content: center;
   margin-top: 3.125rem; 
 }
+
 footer img{
   width: 5rem;
   height: auto;
