@@ -28,22 +28,20 @@ font-family: 'Cabin Sketch', sans-serif;
 }
 
 html {
-  --background-color: #FFFEF2;
+  --background-color: #e6e6e6;
   --titlesandtext: #36454F;
   --details: #8DA95F;
   --backgroundhighlights: #CE575A;
 }
 
 * {
-  /*box-sizing: border-box;*/
+  box-sizing: border-box;
   }
 
 body {
-    background-image: url(../Images/texture.jpg);
     background-color: var(--background-color);
     background-size: cover;
     color: var(--titlesandtext);
-    
 }
 
 h1 {
@@ -77,15 +75,12 @@ p {
 
 header {
     width: 100%;
-    /*margin: 0 auto;
-    border: 2em;*/
+
     
 }
 
 #navBar {
     width: 100%;
-    min-width: 4.5em;
-    margin: auto;
     padding-top: 3em;
     padding-bottom:3em;
     display: flex;
@@ -97,7 +92,7 @@ header {
 #navBar a {
   color:#36454F;
   text-decoration: none;
-  font-size: 3.3em;
+  font-size: 3.3rem;
 }
 
 #navBar li:active {
@@ -118,11 +113,14 @@ header {
   text-align: center;
   text-wrap: pretty;
   font-size: 1.1em;
-
 }
 
 .Work {
-  margin: 0 3em 0 3em;
+  margin: 0 2em 0 2em;
+}
+
+.Hello {
+  margin: 0 2em 0 2em;
 }
 
 #photo img {
