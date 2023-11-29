@@ -1,16 +1,7 @@
 @font-face {
-    font-family: Karla;
-    src: url(https://fonts.google.com/specimen/Karla);
-    font-size: 100%;
-    padding: 1em;
-    font-weight: normal;
-    font-style: normal;
-  }
-@font-face {
     font-family: Quantico;
     src: url(https://fonts.google.com/specimen/Quantico);
     font-size: 100%;
-    padding: 1em;
     font-weight: 0 700;
     font-style: normal;
 }
@@ -18,11 +9,9 @@
     font-family: Cabin Sketch;
     src: url(https://fonts.google.com/specimen/Cabin+Sketch);
     font-size: 100%;
-    padding: 1em;
     font-weight: 400 700;
     font-style: normal, bold;
 
-font-family: 'Karla', sans-serif;
 font-family: 'Quantico', sans-serif;
 font-family: 'Cabin Sketch', sans-serif;
 }
@@ -31,7 +20,7 @@ html {
   --background-color: #e6e6e6;
   --titlesandtext: #36454F;
   --details: #8DA95F;
-  --backgroundhighlights: #CE575A;
+  --backgroundhighlights: #FF2B27;
 }
 
 * {
@@ -42,51 +31,59 @@ body {
     background-color: var(--background-color);
     background-size: cover;
     color: var(--titlesandtext);
+    width: 100%;
+    margin: 0;
 }
 
 h1 {
     font-family: 'Cabin Sketch', Georgia, sans-serif;
     font-weight: 700;
-    font-size: 7rem;
+    font-size: 5rem;
 }
 
-h2, h3 {
+h2 {
+  font-family: 'Quantico', Georgia, sans-serif;
+  font-weight: 0;
+  font-size: 3rem;
+}
+
+h3 {
   font-family: 'Cabin Sketch', Georgia, sans-serif;
   font-weight: 400;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 a {
   font-family: 'Cabin Sketch', Georgia, sans-serif;
     font-weight: 400;
-    font-size: 2.7rem;
+    font-size: 2rem;
 }
 
 h4 {
-    font-family: Quantico, Georgia, sans-serif;
+    font-family: 'Quantico', Georgia, sans-serif;
     font-weight: 700;
-    font-size: 3.5rem;
+    font-size: 2rem;
   }
 
 p {
-    font-family: Lato, Georgia, sans-serif;
+    font-family: 'Quantico', Georgia, sans-serif;
 
   }
 
 header {
-    width: 100%;
-
-    
+    width: 100%;   
 }
 
 #navBar {
-    width: 100%;
-    padding-top: 3em;
-    padding-bottom:3em;
+    justify-content: center;
+    margin: 10rem 2rem 2rem 2rem;
+    padding: 1.5rem 0rem 1.5rem 0rem;
     display: flex;
     flex-direction: row;
     list-style-type: none;
     color: #36454F;
+    border-top: 2px solid #36454F;
+    border-bottom: 2px solid #36454F;
 }
 
 #navBar a {
@@ -95,60 +92,156 @@ header {
   font-size: 3.3rem;
 }
 
-#navBar li:active {
-  text-decoration:#CE575A underline;
-  color:#CE575A;
-}
-
-#navBar a:hover {
-  border-bottom: 3px solid red;
+#Home a:active {
+  color: #FF2B27;
 }
 
 #navBar li {
-    padding: 1.1em;
+    padding: 1.2rem;
 }
+
+    #Home {
+      border-right: 2px solid #36454F;
+    }
+
+    #Work {
+      border-right: 2px solid #36454F;
+    }
+
+    #Resume {
+      border-right: 2px solid #36454F;
+    }
+
+    #AboutMe {
+      border-right: 2px solid #36454F;
+    }
+
+.Doyeon {
+  padding: 16rem 0rem 70rem 6rem;
+  text-wrap: wrap;
+}
+
+  .Doyeon h2 {
+    font-size: 4.5em;
+  }
+
+  .Doyeon h1 {
+    font-size: 8.2em;
+  }
 
 .Intro {
-  margin: 30em 6em 45em 6em;
-  text-align: center;
-  text-wrap: pretty;
-  font-size: 1.1em;
+  background-image: url("../Images/intro.png");
+  background-size: cover;
+
 }
 
-.Work {
-  margin: 0 2em 0 2em;
+.Intro #Arrow {
+  position: absolute;
+  width: 13rem;
+  right: 2em;
+  bottom: 19em;
 }
 
 .Hello {
-  margin: 0 2em 0 2em;
+  margin: 0em 4em 10em 4em;
+  text-align: center;
+}  
+
+.Work {
+  margin: 0 3em 0 3em;
 }
 
-#photo img {
-  max-width: 100%;
+  .Work Img {
+    width: 85%;
+    margin: 1em;
+  }
+
+.Fish {
+  outline: 2px solid #36454F;
+  text-align: center;
+  width: max-content;
 }
 
-#photo {
-  max-width: fit-content;
+  .Fish a {
+    text-decoration: none;
+    color: #36454F;
+    padding: .1em;
+  }
+
+  .Fish h3 {
+    padding: .1em;
+  }
+.chessRookie h4 {
+  clear: right;
+}
+
+.chessRookie Img {
+  float: right;
+  clear: right;
+}
+
+
+.About {
+  margin: 0 3em 0 3em;
+}
+
+.About Img {
+  width: 50em;
+  float: left;  
+  margin: 0 2em 4em 2em;
+}
+
+.resume {
+  margin: 0 3em 5em 3em;
+}
+
+.Resume {
+  margin: 0 3em 5em 3em;
+  text-wrap: pretty;
+}
+
+  .Resume h1 {
+    font-size: 2.2em;
+    border-bottom: 2px solid #36454F;
+  }
+
+  .Resume h2 {
+    font-size: 2em;
+  }
+
+  .Resume h3 {
+    font-size: 2em;
+  }
+
+  .Resume h4 {
+    font-size: 2em;
+  }
+
+  .Resume p {
+    font-size: 1em;
+  }
+
+.Photo {
+  margin: 4% 3em 5em 3em;
+}
+
+.Photo Img {
+  margin-bottom: 3em;
+  width: 100%;
 }
 
 #photo ul {
-}
-
-#photo li {
-  align-content: center;
-  /*display: flex;
-  justify-content: center;*/
-  max-width: 100%;
+  text-decoration: none;
 
 }
 
 footer {
   display: flex;
   justify-content: center;
-  margin-top: 3.125rem; 
+  margin: 3rem;
 }
 
-footer img{
+footer img {
   width: 5rem;
   height: auto;
   margin: 0 1em;
