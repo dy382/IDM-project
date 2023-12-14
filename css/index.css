@@ -227,6 +227,7 @@ header {
   background-size: cover;
 }
 
+/* couldn't figure out how to layer image properly in time. 
 .Intro #Arrow {
   display: block;
   position: relative;
@@ -234,7 +235,7 @@ header {
   left: 45rem;
   bottom: 50rem;
   z-index: 1;
-}
+} */
 
 .Hello {
   margin: 0em 4em 10em 4em;
@@ -261,7 +262,7 @@ header {
   font-size: 2rem;
 }
 
-/*fish means boxed (inside joke name). fish represents the texts that are boxed for design purposes */
+/*fish means boxed (inside joke name). fish represents the texts that are boxed for design purposes (also represents button)*/
 
 .Fish {
   outline: 2px solid #36454F;
