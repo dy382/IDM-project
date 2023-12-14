@@ -1,13 +1,19 @@
 @font-face {
-    font-family: Quantico;
-    src: url(https://fonts.google.com/specimen/Quantico);
-    font-weight: 700;
+  font-family: "Cabin Sketch";
+  src: url('../fonts/cabinsketch-regular-webfont.ttf') format('truetype'), url('../fonts/cabinsketch-regular-webfont.woff') format('woff'), url('../fonts/cabinsketch-regular-webfont.woff2') format('woff2');
+  font-weight: 400 700;
+  font-style: normal;
 }
+
 @font-face {
-    font-family: Cabin Sketch;
-    src: url(https://fonts.google.com/specimen/Cabin+Sketch);
-    font-weight: 400 700;
+  font-family: "Quantico";
+  src: url('../fonts/quantico-regular-webfont.ttf') format('truetype'), url('../fonts/quantico-regular-webfont.woff') format('woff'), url('../fonts/quantico-regular-webfont.woff2') format('woff2'),
+       url('../fonts/quantico-bold-webfont.ttf') format('truetype'), url('../fonts/quantico-bold-webfont.woff') format('woff'), url('../fonts/quantico-bold-webfont.woff2') format('woff2'),
+       url('../fonts/quantico-italic-webfont.ttf') format('truetype'), url('../fonts/quantico-italic-webfont.woff') format('woff'), url('../fonts/quantico-italic-webfont.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal, italic;
 }
+
 
 html {
   --background-color: #e6e6e6;
@@ -29,19 +35,14 @@ body {
 }
 
 h1 {
-    font-family: 'Cabin Sketch', Georgia, sans-serif;
-    font-weight: 700;
-    font-size: 5rem;
+  font-family: 'Cabin Sketch', Georgia, sans-serif;
+  font-weight: 700;
+  font-size: 5rem;
 }
-
-#currentPage {
-  color: red;
-}
-
 
 h2 {
   font-family: 'Quantico', Georgia, sans-serif;
-  font-size: 3rem;
+  font-weight: 700;
 }
 
 h3 {
@@ -53,13 +54,13 @@ h3 {
 
 a {
   font-family: 'Cabin Sketch', Georgia, sans-serif;
-    font-weight: 400;
-    font-size: 2rem;
+  font-weight: 400;
+  font-size: 2rem;
 }
 
 h4 {
     font-family: 'Quantico', Georgia, sans-serif;
-    font-weight: 700;
+    font-weight: 400;
   }
 
 p {
@@ -69,6 +70,10 @@ p {
 
 header {
     width: 100%;   
+}
+
+#currentPage {
+  color: red;
 }
 
 /*MENU*/
@@ -238,7 +243,7 @@ header {
 } */
 
 .Hello {
-  margin: 0em 4em 10em 4em;
+  margin: 0rem 4rem 15rem 4rem;
   text-align: center;
 }  
 
@@ -307,11 +312,11 @@ header {
 
 /*resume page*/
 
-.resume {
+.resumetitle {
   margin: 0 3em 5em 3em;
 }
 
-  .resume h3 {
+  .resumetitle h3 {
     text-align: center;
   }
 
@@ -332,20 +337,24 @@ header {
 }
 
   .Resume h1 {
-    font-size: 2.2em;
+    font-size: 2.4em;
     border-bottom: 2px solid #36454F;
+    margin-bottom: 0;
   }
 
   .Resume h2 {
     font-size: 2em;
+    margin-bottom: 0;
   }
 
   .Resume h3 {
     font-size: 2em;
+    margin-top: 1rem;
   }
 
   .Resume h4 {
     font-size: 2em;
+    margin: 0;
   }
 
   .Resume p {
@@ -390,13 +399,13 @@ header {
 footer {
   display: flex;
   justify-content: center;
-  margin: 10rem 3rem 3rem 3rem;
+  margin: 8rem 3rem 3rem 3rem;
 }
 
 footer img {
-  width: 5rem;
+  width: 7rem;
   height: auto;
-  margin: 0 1em;
+  margin: 0 2em;
 }
 
 
