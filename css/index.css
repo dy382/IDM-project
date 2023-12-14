@@ -1,16 +1,12 @@
 @font-face {
     font-family: Quantico;
     src: url(https://fonts.google.com/specimen/Quantico);
-    font-weight: 0 700;
+    font-weight: 700;
 }
 @font-face {
     font-family: Cabin Sketch;
     src: url(https://fonts.google.com/specimen/Cabin+Sketch);
     font-weight: 400 700;
-    font-style: bold;
-
-font-family: 'Quantico', sans-serif;
-font-family: 'Cabin Sketch', sans-serif;
 }
 
 html {
