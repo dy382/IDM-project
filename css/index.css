@@ -79,48 +79,6 @@ header {
     width: 100%;   
 }
 
-/* 
-#navBar {
-    justify-content: center;
-    margin: 10rem 2rem 2rem 2rem;
-    padding: 1.5rem 0rem 1.5rem 0rem;
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
-    color: #36454F;
-    border-top: 2px solid #36454F;
-    border-bottom: 2px solid #36454F;
-}
-
-#navBar a {
-  text-decoration: none;
-  font-size: 3.3rem;
-}
-
-a {
-  color: #36454F;
-}
-
-#navBar li {
-    padding: 1.2rem;
-}
-
-    #Home {
-      border-right: 2px solid #36454F;
-    }
-
-    #Work {
-      border-right: 2px solid #36454F;
-    }
-
-    #Resume {
-      border-right: 2px solid #36454F;
-    }
-
-    #AboutMe {
-      border-right: 2px solid #36454F;
-    } */
-  
 /*MENU*/
   
 .navbar {
@@ -252,7 +210,7 @@ a {
   display: none;
 }
 
-/*MENU*/
+/*index introduction/homepage*/
 
 .Doyeon {
   padding: 16rem 0rem 70rem 6rem;
@@ -292,6 +250,8 @@ a {
   font-size: 2rem;
 } 
 
+/*portfolio work content*/
+
 .Work {
   margin: 0 3em 0 3em;
 }
@@ -305,6 +265,8 @@ a {
   margin: 0.7rem 0 2rem 0;
   font-size: 2rem;
 }
+
+/*fish means boxed (inside joke name). fish represents the texts that are boxed for design purposes */
 
 .Fish {
   outline: 2px solid #36454F;
@@ -335,6 +297,8 @@ a {
   margin-bottom: 7rem;
 }
 
+/*About me Page*/
+
 .About {
   margin: 0 3em 0 3em;
 }
@@ -344,6 +308,8 @@ a {
   float: left;  
   margin: 0 2em 4em 2em;
 }
+
+/*resume page*/
 
 .resume {
   margin: 0 3em 5em 3em;
