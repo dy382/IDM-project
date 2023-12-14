@@ -259,12 +259,14 @@ a {
   text-wrap: wrap;
 }
 
-  .Doyeon h2 {
-    font-size: 4.5em;
+  .Doyeon h4 {
+    font-size: 2em;
+    margin-left: 3rem;
   }
 
   .Doyeon h1 {
-    font-size: 8.2em;
+    font-size: 9rem;
+    margin-top: 0rem;
   }
 
 .Intro {
@@ -286,6 +288,10 @@ a {
   text-align: center;
 }  
 
+.Hello h4 {
+  font-size: 2rem;
+} 
+
 .Work {
   margin: 0 3em 0 3em;
 }
@@ -297,6 +303,7 @@ a {
 
 .Work h4 {
   margin: 0.7rem 0 2rem 0;
+  font-size: 2rem;
 }
 
 .Fish {
@@ -386,7 +393,7 @@ a {
 
 .phototitle {
   margin: 0 3em 0em 3em;
-  padding-bottom: 10re;
+  padding-bottom: 10rem;
   background-image: url("../Images/photobackground.png");
   background-size: cover;
 }
@@ -400,7 +407,7 @@ a {
 }
 
 .Photo {
-  margin: 6em 5em 5em 5em;
+  margin: 3em 5em 5em 5em;
 }
 
 .Photo Img {
