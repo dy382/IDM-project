@@ -214,7 +214,7 @@ header {
 /*index introduction/homepage*/
 
 .Doyeon {
-  padding: 16rem 0rem 70rem 6rem;
+  padding: 13rem 0rem 67rem 6rem;
 }
 
   .Doyeon h4 {
@@ -224,7 +224,7 @@ header {
 
   .Doyeon h1 {
     font-size: 9rem;
-    margin-top: 0rem;
+    margin-top: 6rem;
   }
 
 .Intro {
@@ -251,6 +251,10 @@ header {
   font-size: 2rem;
 } 
 
+.Hello h2{
+  font-size: 2rem;
+}  
+
 /*portfolio work content*/
 
 .Work {
@@ -264,7 +268,7 @@ header {
 
 .Work h4 {
   margin: 0.7rem 0 2rem 0;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 /*fish means boxed (inside joke name). fish represents the texts that are boxed for design purposes (also represents button)*/
@@ -420,7 +424,7 @@ header {
   }
 
   .case p {
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin: 2rem 0 2rem 0;
   }
 
