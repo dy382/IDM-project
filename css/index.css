@@ -243,7 +243,7 @@ header {
 } */
 
 .Hello {
-  margin: 0rem 4rem 15rem 4rem;
+  margin: 0rem 5rem 15rem 4rem;
   text-align: center;
 }  
 
@@ -254,7 +254,7 @@ header {
 /*portfolio work content*/
 
 .Work {
-  margin: 0 3em 0 3em;
+  margin: 0 4em 0 4em;
 }
 
 .Work Img {
@@ -293,27 +293,34 @@ header {
   font-size: 4rem;
 } 
 
-.woodmereartmuseum {
-  font-size: 4rem;
-  margin-bottom: 7rem;
+.woodmereArtMuseum {
+  margin-bottom: 5rem;
 }
 
 /*About me Page*/
 
 .About {
-  margin: 0 3em 0 3em;
+  margin: 0 4em 0 4em;
 }
 
-.About Img {
-  width: 50em;
-  float: left;  
-  margin: 0 2em 4em 2em;
+.About img {
+  width: 100%;
+}
+
+.About h3 {
+  margin-top: 3rem;
+  font-size: 3.5rem;
+}
+
+.About p {
+  margin-top: 2rem;
+  font-size: 1.5rem;
 }
 
 /*resume page*/
 
 .resumetitle {
-  margin: 0 3em 5em 3em;
+  margin: 0 4em 5em 4em;
 }
 
   .resumetitle h3 {
@@ -333,36 +340,45 @@ header {
   }
 
 .Resume {
-  margin: 5em 3em 5em 3em;
+  margin: 5em 4em 5em 4em;
 }
 
   .Resume h1 {
     font-size: 2.4em;
     border-bottom: 2px solid #36454F;
-    margin-bottom: 0;
+    margin: 5rem 0 1.5rem 0;
   }
 
   .Resume h2 {
     font-size: 2em;
-    margin-bottom: 0;
+    margin: 4rem 0 0 0;
   }
 
   .Resume h3 {
     font-size: 2em;
-    margin-top: 1rem;
+    margin-top: 3rem;
   }
 
   .Resume h4 {
-    font-size: 2em;
-    margin: 0;
+    font-size: 1.5em;
+    margin: 1rem 0 1rem 0;
   }
 
   .Resume p {
-    font-size: 1em;
+    font-size: 0.95em;
+    margin: 1rem 0 1.5rem 0;
   }
 
+  .Resume ul {
+    margin: 1rem 0 5rem 2rem;
+  }
+
+.space {
+  margin-top: 4rem;
+}
+
 .phototitle {
-  margin: 0 3em 0em 3em;
+  margin: 0 4em 0em 4em;
   padding-bottom: 10rem;
   background-image: url("../Images/photobackground.png");
   background-size: cover;
@@ -389,17 +405,37 @@ header {
   text-decoration: none;
 }
 
-.Rook {
-  margin: 0em 3em 5em 3em;
+.case {
+  margin: 0rem 4rem 5rem 4rem;
 }
 
-.Woodmere {
-  margin: 0em 3em 5em 3em;
+  .case h2 {
+    margin: 3rem 0 0 0;
+    font-size: 2rem;
+  }
+
+  .case h3 {
+    margin: 6rem 0rem 2rem 0rem;
+    font-size: 4em;
+  }
+
+  .case p {
+    font-size: 1.5rem;
+    margin: 2rem 0 2rem 0;
+  }
+
+  .case img {
+    width: 100%;
+  }
+
+.ident {
+  margin: 0 0 0 4rem;
 }
+
 footer {
   display: flex;
   justify-content: center;
-  margin: 8rem 3rem 3rem 3rem;
+  margin: 9rem 0rem 5rem 0rem;
 }
 
 footer img {
